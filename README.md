@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/main/banner.png" alt="h4mz1fy banner" width="100%">
+  <img src="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/main/h4mz1fy.png" alt="h4mz1fy banner" width="100%">
 </p>
 
 <h1 align="center">👾 h4mz1fy</h1>
