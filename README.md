@@ -1,16 +1,24 @@
-## Hi there 👋
+<p align="center">
+  <img src="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/main/banner.png" alt="h4mz1fy banner" width="100%">
+</p>
 
-<!--
-**h4mz1fy/h4mz1fy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">👾 h4mz1fy</h1>
+<p align="center">
+  <b>Cybersecurity • Robotics • AI • Teknofest Competitor</b><br>
+  <sub>Engineering chaos into order ⚙️</sub>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🇬🇧 About Me
+
+```python
+class h4mz1fy:
+    def __init__(self):
+        self.alias = "h4mz1fy"
+        self.focus = ["Cybersecurity", "AI Systems", "IoT", "Robotics"]
+        self.projects = ["Hamzify RAT", "PhoneInfoX", "FenTek EC Bots"]
+        self.motto = "Build tools. Break limits."
+        
+    def __str__(self):
+        return "⚡ Architect of silence, creator of noise."
