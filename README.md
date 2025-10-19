@@ -105,6 +105,14 @@ Systems are **living organisms**: connected, reactive, and intelligent.
 My craft: make them **observable, reliable, and secure** — without killing speed.
 
 ---
+<!-- 🐍 Contribution Snake -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/output/github-snake-light.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/h4mz1fy/h4mz1fy/output/github-snake.svg"/>
+  </picture>
+</p>
 
 ## 📦 Code DNA (fun)
 ```python
