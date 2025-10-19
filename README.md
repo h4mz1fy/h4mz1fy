@@ -105,6 +105,11 @@ Systems are **living organisms**: connected, reactive, and intelligent.
 My craft: make them **observable, reliable, and secure** — without killing speed.
 
 ---
+<!-- 🏆 GitHub Trophies -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=h4mz1fy&theme=onestar&no-frame=true&no-bg=true&row=1&column=8" alt="trophies"/>
+</p>
+
 <!-- 🐍 Contribution Snake -->
 <p align="center">
   <picture>
