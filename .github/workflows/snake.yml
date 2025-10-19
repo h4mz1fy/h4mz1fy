@@ -1,12 +1,9 @@
-name: Generate Snake
+name: generate-snake
 
 on:
-  # Her gece çalışsın
   schedule:
-    - cron: "0 0 * * *"
-  # Elle de tetikleyebilirsin
-  workflow_dispatch:
-  # README veya ayar değişince de çalışsın
+    - cron: "0 0 * * *"  # her gece 00:00'da çalışır
+  workflow_dispatch:      # manuel çalıştırma için
   push:
     branches:
       - main
@@ -14,10 +11,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate the snake SVG
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: h4mz1fy
           outputs: |
@@ -25,7 +26,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/github-snake-light.svg?palette=github-light
 
-      - name: Publish to GitHub Pages (output branch)
+      - name: Push snake files to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
